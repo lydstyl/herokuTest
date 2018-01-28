@@ -1,0 +1,14 @@
+body{
+    background: #FEFEFE;
+}
+
+nav{
+    background: black;
+}
+
+nav a{
+    float: left;
+}
+nav ul{
+    float: right;
+}

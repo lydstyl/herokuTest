@@ -1,0 +1,9 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Acme {{ post.title }}{% endblock %}
+{% block content %}
+    <article>
+        <h1>#{{ post.id }} - {{ post.title }}</h1>
+        <p>{{ post.body }}</p>
+        <a href="{% url 'blog:index' %}">go to blog index</a>
+    </article>
+{% endblock %}

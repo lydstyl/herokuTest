@@ -1,0 +1,20 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Acme all posts{% endblock %}
+{% block content %}
+    <h1>blog ({{ posts|length }} posts)</h1>
+    {% for post in posts %}
+            <article>
+                <h2>#{{ post.id }} - {{ post.title|upper }}</h2>
+                <p>{{ post.body|truncatewords:3 }}</p>
+                <p><a href="/blog/posts/{{ post.id }}">Lire la suite</a></p>
+                <p>ou le même lien mais pas en hard donc mieux :</p>
+                <p><a href="{% url 'blog:show' id=post.id %}">Lire la suite</a></p>
+            </article>
+        {% if not forloop.last %}
+            <hr>
+        {% endif %}
+    {% empty %}
+            <p>No post avalable</p>
+    {% endfor %}
+
+{% endblock %}
