@@ -1,0 +1,95 @@
+hello world django sur heroku
+	https://www.heroku.com/
+	https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-django
+    https://www.djangoproject.com/
+
+    https://www.youtube.com/watch?v=D6esTdOLXh4 7 nov 2017 en en
+    https://www.youtube.com/watch?v=SjRlmyEVXq4 cours du black en fr 4 mars 2017
+
+
+fun and fast D C S (formulaire et autentification Django best je pense)
+serveur C S D
+emplois S D C
+
+HISTORIQUE
+suivi du cours https://www.youtube.com/watch?v=D6esTdOLXh4 du 7 nov en anglais (xamp demandé)
+installation de python 3.6 https://doc.ubuntu-fr.org/python#python_3_et_ubuntu
+pour le venv suivi de https://www.youtube.com/watch?v=SjRlmyEVXq4 cours du black en fr 4 mars 2017
+j'ai Python 3.5.2 (python3 -V)
+si on veut utiliser pip3 (pip3 -V)
+sudo apt install python3-pip
+
+pip 8.1.1 from /usr/lib/python3/dist-packages (python 3.5)
+pip3 install --upgrade pip
+pip 9.0.1 from /home/l/.local/lib/python3.5/site-packages (python 3.5)
+python3 -m venv venv
+source venv/bin/activate     deactivate
+pip install django
+(venv) l@sque-ubu1604:~/Dropbox/Informatique/DJANGO/2018$ python -V
+Python 3.5.2
+(venv) l@sque-ubu1604:~/Dropbox/Informatique/DJANGO/2018$ pip -V
+pip 9.0.1 from /home/l/Dropbox/Informatique/DJANGO/2018/venv/lib/python3.5/site-packages (python 3.5)
+Python 3.5.2 (default, Nov 23 2017, 16:37:01)
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+>>> django.get_version(
+... )
+'2.0.1'
+
+16 min 50 du black
+
+reprise de la video en anglais stop à 15min 46 car je prefere la video du black 
+reprise de la video du black
+
+django-admin startproject acme
+
+sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+
+Then update the cache using:
+
+    sudo apt-get update
+
+Install the package using:
+
+    sudo apt-get install sqlitebrowser
+
+https://github.com/django-extensions/django-extensions
+pip install django-extensions
+
+https://django-debug-toolbar.readthedocs.io/en/stable/installation.html
+
+
+OBJECTIF
+    mettre en prod
+
+    afficher uniquement les posts de l'utilisateur ou si groupe admin alors afficher tous les posts
+    
+    créer un formulaire ?
+
+    brancher au mysql existant ?
+
+
+https://devcenter.heroku.com/articles/deploying-python
+
+(venv) l@sque-ubu1604:~/Dropbox/Informatique/DJANGO/2018/acme$ pip freeze
+Django==2.0.1
+django-debug-toolbar==1.9.1
+django-extensions==1.9.9
+pkg-resources==0.0.0
+pytz==2017.3
+six==1.11.0
+sqlparse==0.2.4
+typing==3.6.4
+
+pour notre collaborateur il peut installer pip install -r requirements.txt
+
+runtime.txt python-3.5.2
+mais heroku supporte que python-3.6.4
+
+https://devcenter.heroku.com/articles/deploying-python
+
+ajout de STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+24 min https://www.youtube.com/watch?v=eJ0sEUB3d1U&list=PLlxQJeQRaKDRZRrgqSxolQHTDs4lvbDsf&index=3
