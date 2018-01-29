@@ -113,3 +113,9 @@ https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
 
 
 https://docs.python.org/3/library/venv.html
+
+créer un venv : python3 -m venv venvp3
+installer pip3 
+et l'upgrader pip3 install --upgrade pip pour pouvoir 
+faire pip install -r requirements.txt tout ça dans le venv
+
