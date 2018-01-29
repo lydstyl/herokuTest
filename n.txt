@@ -93,3 +93,23 @@ ajout de STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 24 min https://www.youtube.com/watch?v=eJ0sEUB3d1U&list=PLlxQJeQRaKDRZRrgqSxolQHTDs4lvbDsf&index=3
+
+
+
+
+
+10min35
+
+installer python 3.6.4 avant
+
+
+https://www.youtube.com/watch?v=eJ0sEUB3d1U&index=3&list=PLlxQJeQRaKDRZRrgqSxolQHTDs4lvbDsf
+
+
+
+installer python 3.6 sur 16.04:
+https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
+
+
+
+https://docs.python.org/3/library/venv.html
