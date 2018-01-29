@@ -25,8 +25,8 @@ SECRET_KEY = '5n_a&$^h2lro@4tg%4ztixr5h1)(ipv4d#v+&)$+ai&dd188ho'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost'] # ajouter ici l'ip du nom de domaine ?
-
+# ALLOWED_HOSTS = ['127.0.0.1', 'localhost'] # ajouter ici l'ip du nom de domaine ?
+ALLOWED_HOSTS = ['lyd-acme.herokuapp.com']
 
 # Application definition
 
