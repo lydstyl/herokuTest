@@ -157,3 +157,5 @@ DATABASES = {
 https://github.com/kennethreitz/dj-database-url
 
 37 min 54 sec black 3 pour voir son requirements.txt
+
+reprendre à 39 min
